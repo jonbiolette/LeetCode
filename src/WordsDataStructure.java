@@ -1,28 +1,8 @@
+/*
+@author Jon Biolette
+@date 03/19/2022
+ */
 public class WordsDataStructure {
-
-        public static void main(String[] args) {
-
-            //"search","search","search","search","search","search"]
-            //[".at"],["an."],["a.d."],["b."],["a.d"],["."]]
-            WordDictionary wordDictionary = new WordDictionary();
-            wordDictionary.addWord("at");
-            wordDictionary.addWord("and");
-            wordDictionary.addWord("an");
-            wordDictionary.addWord("add");
-//            System.out.println(wordDictionary.search("a")); // return False
-//            System.out.println(wordDictionary.search(".at")); // return False
-            wordDictionary.addWord("bat");
-//            System.out.println(wordDictionary.search(".at")); // return True
-//            System.out.println(wordDictionary.search("an.")); // return True
-//            System.out.println(wordDictionary.search("a.d."));// return False
-//            System.out.println(wordDictionary.search("b."));// return False
-            System.out.println(wordDictionary.search("a.d"));// return True
-            System.out.println(wordDictionary.search("."));// return False
-
-
-            //[null,null,null,null,null,false,false,null,true,true,false,false,true,false]
-        }
-    }
 
 class WordDictionary {
         String[] list;
