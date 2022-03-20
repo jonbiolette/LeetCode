@@ -1,3 +1,7 @@
+/*
+@author Jon Biolette
+@date 03/19/2022
+ */
 public class PalindromeNumber {
     public static void main(String[] args) {
         int num = -121;

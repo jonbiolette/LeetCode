@@ -1,3 +1,7 @@
+/*
+@author Jon Biolette
+@date 03/19/2022
+ */
 public class ValidParentheses {
     public static void main(String[] args) {
         String s = "([)]";
